@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>芜湖大恒物流有限公司</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+    <link rel="stylesheet" href="css/phone_base.css">
+    <link rel="stylesheet" href="css/dh.css">
+    <link rel="stylesheet" href="css/swiper.css">
+</head>
+<body>
+<div class="container">
+    <!-- header-->
+    <div class="header">
+        <ul class="mui-flex">
+            <li class="cell">
+                <a href="">
+                    <img src="images/logo.png" alt="" width="100%" style="min-width: 160px;">
+                </a>
+            </li>
+            <li class="cell">
+                <input class="search" type="text" placeholder="输入关键词" />
+                <span class="search-icon"></span>
+            </li>
+        </ul>
+    </div>
+    <!-- end header-->
+    <!-- nav-->
+    <div class="nav swiper-container">
+        <ul class=" swiper-wrapper">
+            <li class=" swiper-slide">
+
+                首页
+
+            </li>
+            <li class=" swiper-slide">
+                关于我们
+            </li>
+            <li class=" swiper-slide">
+                大恒快运
+            </li>
+            <li class=" swiper-slide">
+                成功案例
+            </li>
+            <li class=" swiper-slide">
+                新闻动态
+            </li>
+            <li class=" swiper-slide">
+                车辆展示
+            </li>
+            <li class=" swiper-slide">
+                木箱展示
+            </li>
+            <li class=" swiper-slide">
+                联系我们
+            </li>
+        </ul>
+    </div>
+    <!-- end nav-->
+    <!-- 联系内容-->
+    <div class="show" style="padding: 10px;">
+        <div class="btn-blue">芜湖公司</div>
+        <p class="mt10">零散业务(电 话)：0553-2960887、2960885 </p>
+        <p class="mt10">大宗业务(电 话)：0553-5860890、13955350890</p>
+        <p class="mt10">Q Q:    420403213</p>
+        <p class="mt10">邮 箱： luojunhai@whdhwl.com</p>
+        <p class="mt10">芜湖公司地址：安徽省芜湖市镜湖区长江南路26号（皖江雅居小区隔壁，钢材市场院内）</p>
+        <div class="btn-blue mt22">铜陵分公司</div>
+        <p class="mt10">电  话：0562-2651890</p>
+        <p class="mt10">手  机：18056211890</p>
+        <p class="mt10">铜陵公司地址：安徽省铜陵市狮子山区皖中南物流园（国际汽车城内）</p>
+        <div class="btn-blue mt22">服务热线</div>
+        <p class="mt10">24小时统一服务热线：<span class="num">400 600 1890</span></p>
+        <br/>
+        <iframe width="304" height="374" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://j.map.baidu.com/a1Kh8"></iframe>
+    </div>
+    <!-- end 联系内容-->
+    <!-- footer-->
+    <div class="footer">
+        Copyright © <?php echo date('Y'); ?> 芜湖大恒物流有限公司   All Right Reserved
+    </div>
+    <!-- end footer-->
+    <!-- float tel-->
+    <div class="float-tel"></div>
+    <!-- end float tel-->
+</div>
+</body>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/float.js"></script>
+<script src="js/swiper.js"></script>
+<script>
+    var swiper = new Swiper('.nav', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        paginationClickable: true,
+        spaceBetween: 30
+    });
+</script>
+<script>
+    $(".float-tel").float({offset : {right : 12}});
+</script>
+</html>

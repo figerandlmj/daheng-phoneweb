@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>芜湖大恒物流有限公司</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+    <link rel="stylesheet" href="css/phone_base.css">
+    <link rel="stylesheet" href="css/dh.css">
+    <link rel="stylesheet" href="css/swiper.css">
+</head>
+<body>
+<div class="container">
+    <!-- header-->
+    <div class="header">
+        <ul class="mui-flex">
+            <li class="cell">
+                <a href="">
+                    <img src="images/logo.png" alt="" width="100%" style="min-width: 160px;">
+                </a>
+            </li>
+            <li class="cell">
+                <input class="search" type="text" placeholder="输入关键词" />
+                <span class="search-icon"></span>
+            </li>
+        </ul>
+    </div>
+    <!-- end header-->
+    <!-- nav-->
+    <div class="nav swiper-container">
+        <ul class=" swiper-wrapper">
+            <li class=" swiper-slide">
+
+                首页
+
+            </li>
+            <li class=" swiper-slide">
+                关于我们
+            </li>
+            <li class=" swiper-slide">
+                大恒快运
+            </li>
+            <li class=" swiper-slide">
+                成功案例
+            </li>
+            <li class=" swiper-slide">
+                新闻动态
+            </li>
+            <li class=" swiper-slide">
+                车辆展示
+            </li>
+            <li class=" swiper-slide">
+                木箱展示
+            </li>
+            <li class=" swiper-slide">
+                联系我们
+            </li>
+        </ul>
+    </div>
+    <!-- end nav-->
+    <!-- 列表-->
+    <div class=" news-list">
+        <ul class="mui-flex">
+            <li class="cell fixed list-title" >热烈庆祝我公司“小件快运”顺利开通营运</li>
+            <li class="cell fixed list-date" style="width: 100%;height: 41px;line-height: 41px;">[2014-02-45]</li>
+        </ul>
+        <ul class="mui-flex">
+            <li class="cell fixed list-title" >热烈庆祝我公司“小件快运”顺利开通营运</li>
+            <li class="cell fixed list-date" style="width: 100%;height: 41px;line-height: 41px;">[2014-02-45]</li>
+        </ul>
+        <ul class="mui-flex">
+            <li class="cell fixed list-title" >热烈庆祝我公司“小件快运”顺利开通营运</li>
+            <li class="cell fixed list-date" style="width: 100%;height: 41px;line-height: 41px;">[2014-02-45]</li>
+        </ul>
+        <ul class="mui-flex">
+            <li class="cell fixed list-title" >热烈庆祝我公司“小件快运”顺利开通营运</li>
+            <li class="cell fixed list-date" style="width: 100%;height: 41px;line-height: 41px;">[2014-02-45]</li>
+        </ul>
+        <ul class="mui-flex">
+            <li class="cell fixed list-title" >热烈庆祝我公司“小件快运”顺利开通营运</li>
+            <li class="cell fixed list-date" style="width: 100%;height: 41px;line-height: 41px;">[2014-02-45]</li>
+        </ul>
+        <ul class="mui-flex">
+            <li class="cell fixed list-title" >热烈庆祝我公司“小件快运”顺利开通营运</li>
+            <li class="cell fixed list-date" style="width: 100%;height: 41px;line-height: 41px;">[2014-02-45]</li>
+        </ul>
+
+        <a href="">
+            <div class="look-more">
+                点击更多
+            </div>
+        </a>
+    </div>
+    <!-- end 列表-->
+    <!-- footer-->
+    <div class="footer">
+        Copyright © <?php echo date('Y'); ?> 芜湖大恒物流有限公司   All Right Reserved
+    </div>
+    <!-- end footer-->
+    <!-- float tel-->
+    <div class="float-tel"></div>
+    <!-- end float tel-->
+</div>
+</body>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/float.js"></script>
+<script src="js/swiper.js"></script>
+<script>
+    var swiper = new Swiper('.nav', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        paginationClickable: true,
+        spaceBetween: 30
+    });
+</script>
+<script>
+    $(".float-tel").float({offset : {right : 12}});
+</script>
+</html>

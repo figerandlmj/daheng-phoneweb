@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+        }
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="wrap1" style="background-color: red"></div>
+        <div class="wrap2 hide" style="background-color: yellow"></div>
+    </div>
+</body>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script>
+    $('.wrap').hover(function(){
+        $('.wrap1').hide();
+        $('.wrap2').show();
+    },function(){
+        $('.wrap1').show();
+        $('.wrap2').hide();
+    });
+</script>
+
+</html>
